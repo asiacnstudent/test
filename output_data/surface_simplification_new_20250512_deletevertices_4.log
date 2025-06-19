@@ -1,0 +1,37 @@
+Reading meshes/bunny2.off
+Number of vertices:  6358
+Number of faces:  12712
+bunny2.off is water-tight: True
+sigma: 0.5
+neighbor_radius: 0.2
+--- Cluster Task Summary ---
+Cluster  0 | Vertices:  818 | Faces: 1638 | Assigned tasks:  610 | Mean |K|: 3387.641714
+Cluster  1 | Vertices:  936 | Faces: 1875 | Assigned tasks:  550 | Mean |K|: 5730.741566
+Cluster  2 | Vertices: 1074 | Faces: 2148 | Assigned tasks: 1022 | Mean |K|: 2385.623132
+Cluster  3 | Vertices:  349 | Faces:  696 | Assigned tasks:  250 | Mean |K|: 7374.847172
+Cluster  4 | Vertices: 1091 | Faces: 2181 | Assigned tasks:  818 | Mean |K|: 6850.337843
+Cluster  5 | Vertices:  780 | Faces: 1558 | Assigned tasks:  603 | Mean |K|: 3864.391115
+Cluster  6 | Vertices:  369 | Faces:  736 | Assigned tasks:  217 | Mean |K|: 6339.899910
+Cluster  7 | Vertices:  941 | Faces: 1880 | Assigned tasks:  694 | Mean |K|: 5180.900927
+Initial time: 27.997090101242065
+Iteration time: 148.6040017604828
+Mesh simplification completed.
+
+--- Final Cluster Simplification Summary ---
+Cluster  0 | Assigned:  610 | Simplified:  610 | Frozen: True | Cumulative Error: 0.000047
+Cluster  1 | Assigned:  550 | Simplified:  550 | Frozen: True | Cumulative Error: 0.000048
+Cluster  2 | Assigned: 1022 | Simplified: 1022 | Frozen: True | Cumulative Error: 0.000095
+Cluster  3 | Assigned:  250 | Simplified:  250 | Frozen: True | Cumulative Error: 0.000032
+Cluster  4 | Assigned:  818 | Simplified:  818 | Frozen: True | Cumulative Error: 0.000099
+Cluster  5 | Assigned:  603 | Simplified:  603 | Frozen: True | Cumulative Error: 0.000072
+Cluster  6 | Assigned:  217 | Simplified:  217 | Frozen: True | Cumulative Error: 0.000024
+Cluster  7 | Assigned:  694 | Simplified:  694 | Frozen: True | Cumulative Error: 0.000106
+
+Total actual merged pairs: 0
+Number of vertices in:  6358
+Number of faces in:  12712
+Number of vertices after simplification:  1594
+Number of faces after simplification:  3182
+Hausdorff Distance Front: 0.016959732790250353 £¬Hausdorff Distance Back: 0.00246179489726853
+Hausdorff Distance: 0.016959732790250353
+Experiment log saved to task_allocation_log.csv
